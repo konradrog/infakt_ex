@@ -1,7 +1,6 @@
 require 'rails_helper'
 
 
-
 RSpec.describe TasksController, type: :controller do
   describe 'GET tasks/new' do
     it 'exposes form to create new task' do
